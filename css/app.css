@@ -80,7 +80,7 @@ p {
 }
 
 .card.flip-in {
-    animation: 550ms 1 forwards flip-in; 
+    animation: 550ms 1 forwards flip-in;
 }
 
 @keyframes flip-in {
@@ -91,9 +91,9 @@ p {
         transform: scaleX(1);
     }
     100% {
-        transform: scaleX(0.05); 
+        transform: scaleX(0.05);
     }
-} 
+}
 
 .card.flip-out {
     animation: 450ms 1 forwards flip-out;
@@ -104,9 +104,9 @@ p {
         transform: scaleX(0.05);
     }
     100% {
-        transform: scaleX(1); 
+        transform: scaleX(1);
     }
-} 
+}
 
 .card.unmatch {
     background: #cc0202;
@@ -116,37 +116,37 @@ p {
     animation: 1s 1 wobble;
 }
 
-@keyframes wobble { 
+@keyframes wobble {
     0% {
-        transform: translateX(0%) rotate(0); 
-    } 
-    15% { 
-        transform: translateX(-25%) rotate(-5deg); 
-    } 
-    30% { 
-        transform: translateX(20%) rotate(3deg); 
-    } 
-    45% { 
-        transform: translateX(-15%) rotate(-3deg); 
-    } 
-    60% { 
-        transform: translateX(10%) rotate(2deg); 
-    } 
-    75% { 
-        transform: translateX(-5%) rotate(-1deg); 
-    } 
-    100% { 
-        transform: translateX(0%) rotate(0); 
+        transform: translateX(0%) rotate(0);
     }
-} 
+    15% {
+        transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        transform: translateX(0%) rotate(0);
+    }
+}
 
 .card.bounce {
     animation: 1s 1 bounce;
 }
 
-@keyframes bounce { 
-    0% { 
-        transform: scale(1); 
+@keyframes bounce {
+    0% {
+        transform: scale(1);
     }
     13% {
         transform: scale(1.3, 0.7);
@@ -157,22 +157,22 @@ p {
     38% {
         transform: scale(0.7, 1,3);
     }
-    50% { 
-        transform: scale(1); 
-    } 
+    50% {
+        transform: scale(1);
+    }
     63% {
         transform: scale(1.1, 0.9);
     }
-    75% { 
-        transform: scale(1); 
+    75% {
+        transform: scale(1);
     }
     89% {
         transform: scale(0.9, 1.1);
     }
-    100% { 
-        transform: scale(1); 
-    } 
-} 
+    100% {
+        transform: scale(1);
+    }
+}
 
 /*
  * Styles for the Score Panel
@@ -229,42 +229,42 @@ p {
     min-height: 680px;
 }
 
-.bounce-out { 
+.bounce-out {
     animation: 1s 1 bounce-out;
 }
 
-@keyframes bounce-out { 
-    0% { 
-        transform: scale(1); 
-    } 
-    25% { 
-        transform: scale(.95); 
-    } 
-    100% { 
-        opacity: 0; 
-        transform: scale(.3); 
-    } 
+@keyframes bounce-out {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.95);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(.3);
+    }
 }
 
-.bounce-in { 
+.bounce-in {
     animation: 1200ms 1 bounce-in;
 }
 
-@keyframes bounce-in { 
-    0% { 
-        opacity: 1; 
-        transform: scale(.3); 
-    } 
-    50% { 
-        transform: scale(1.1); 
-    } 
-    70% { 
-        transform: scale(.9); 
-    } 
-    100% { 
-        transform: scale(1); 
-    } 
-} 
+@keyframes bounce-in {
+    0% {
+        opacity: 1;
+        transform: scale(.3);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    70% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 .final-score {
     margin-bottom: 30px;
@@ -308,8 +308,8 @@ p {
     border-radius: 50%;
 }
 
-.loader-left, 
-.loader-right, 
+.loader-left,
+.loader-right,
 .loader-cover {
     clip: rect(0 35px 70px 0);
 }
@@ -431,7 +431,7 @@ p {
     p,
     .btn {
         font-size: 16px;
-    } 
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -449,7 +449,7 @@ p {
     .card.show {
         font-size: 26px;
     }
-    
+
     .card.match {
         font-size: 26px;
     }
@@ -476,4 +476,4 @@ p {
     .btn {
         font-size: 14px;
     }
-}   
+}
